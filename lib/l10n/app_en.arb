@@ -1,0 +1,527 @@
+{
+  "@@locale": "en",
+  "appTitle": "Alzheimer's Ease",
+  "splashTagline": "Care & Connection",
+  "subtitle": "Memory Protection & Patient Care Assistant",
+  "iAmCaregiver": "I am a Caregiver",
+  "iAmPatient": "I am a Patient",
+  "enterPatientPass": "Enter Patient Password",
+  "passwordHint": "Enter the password assigned by caregiver",
+  "login": "Log In",
+  "cancel": "Cancel",
+  "noPatientError": "No patient is registered on this device! Please register from the caregiver panel.",
+  "invalidPassError": "Invalid password! Please try again.",
+  "authFailed": "Authentication failed. Try again.",
+  "useFingerprint": "Scan your fingerprint to access your dashboard.",
+  "welcomeBack": "Welcome Back",
+  "createAccount": "Create Account",
+  "pleaseFillAllFields": "Please fill in all fields.",
+  "loggedInSuccess": "Logged in successfully!",
+  "accountCreatedSuccess": "Account created successfully!",
+  "authErrorOccurred": "An error occurred during authentication.",
+  "unexpectedErrorOccurred": "An unexpected error occurred.",
+  "emailAddress": "Email Address",
+  "password": "Password",
+  "logIn": "Log In",
+  "signUp": "Sign Up",
+  "dontHaveAccount": "Don't have an account? Sign Up",
+  "alreadyHaveAccount": "Already have an account? Log In",
+  "speakToType": "Speak to type",
+  "myMemoryDiary": "My Memory Diary",
+  "whatWouldYouLikeToDo": "What would you like to do?",
+  "myDayToday": "My Day Today",
+  "myDayTodaySubtitle": "Record how you're feeling, what you ate, and what you wore",
+  "beautifulMoments": "Beautiful Moments",
+  "beautifulMomentsSubtitle": "Photos, voice notes, and happy memories",
+  "whoVisitedMe": "Who Visited Me",
+  "whoVisitedMeSubtitle": "View recent visits and photos with loved ones",
+  "addABeautifulMoment": "Add a Beautiful Moment",
+  "tapToAddPhoto": "Tap to add a photo",
+  "whatMadeThisMomentSpecial": "What made this moment special?",
+  "saveMoment": "Save",
+  "addMoment": "Add Moment",
+  "noMomentsRecordedYet": "No moments recorded yet.\nTap + to save a new memory!",
+  "patientNote": "Patient Note",
+  "caregiverNote": "Caregiver Note",
+  "newMemoryTitle": "New Memory Saved 📸",
+  "patientCapturedMoment": "Patient saved a moment: \"{text}\"",
+  "@patientCapturedMoment": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "patientUploadedPhoto": "Patient uploaded a new photo memory 📸",
+  "savedNotesSuccess": "Today's notes saved successfully!",
+  "failedToSaveNotes": "Failed to save notes. Try again.",
+  "checkInHistory": "Check-In History",
+  "errorLoadingHistory": "Error loading history.",
+  "noHistoryFound": "No history found. Save your first check-in!",
+  "moodLabel": "Mood: {mood}",
+  "@moodLabel": {
+    "placeholders": {
+      "mood": {
+        "type": "String"
+      }
+    }
+  },
+  "wearingLabel": "Wearing: {outfit}",
+  "@wearingLabel": {
+    "placeholders": {
+      "outfit": {
+        "type": "String"
+      }
+    }
+  },
+  "ateLabel": "Ate: {meals}",
+  "@ateLabel": {
+    "placeholders": {
+      "meals": {
+        "type": "String"
+      }
+    }
+  },
+  "optionalInfoHint": "Everything here is optional. Write whatever you like!",
+  "howAreYouFeeling": "How are you feeling?",
+  "whatAreYouWearing": "What are you wearing today?",
+  "outfitHint": "e.g., Blue sweater and brown trousers...",
+  "whatDidYouEat": "What did you eat today?",
+  "mealsHint": "e.g., Oatmeal for breakfast, chicken soup...",
+  "saveTodaysStory": "Save Today's Story",
+  "happy": "Happy",
+  "calm": "Calm",
+  "tired": "Tired",
+  "confused": "Confused",
+  "sad": "Sad",
+  "feeling": "Feeling: {mood}",
+  "@feeling": {
+    "placeholders": {
+      "mood": {
+        "type": "String"
+      }
+    }
+  },
+  "wearing": "Wearing: {outfit}",
+  "@wearing": {
+    "placeholders": {
+      "outfit": {
+        "type": "String"
+      }
+    }
+  },
+  "ate": "Ate: {meals}",
+  "@ate": {
+    "placeholders": {
+      "meals": {
+        "type": "String"
+      }
+    }
+  },
+  "completedCheckIn": "Daily Check-In Completed",
+  "dailyCheckInTitle": "Daily Check-In Update ☀️",
+  "patientLoggedStory": "Patient logged today's story ({detail})",
+  "@patientLoggedStory": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "minsAgo": "{count} mins ago",
+  "@minsAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hrsAgo": "{count} hrs ago",
+  "@hrsAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysAgo": "{count} days ago",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "logAVisitor": "Log a Visitor",
+  "visitorName": "Visitor Name",
+  "visitorNameHint": "e.g., Sarah",
+  "relationship": "Relationship",
+  "relationshipHint": "e.g., Daughter / Friend",
+  "defaultVisitorRole": "Visitor",
+  "saveVisit": "Save Visit",
+  "logVisit": "Log Visit",
+  "noVisitLogsRecordedYet": "No visit logs recorded yet.\nTap + to log a new visitor!",
+  "newVisitorLoggedTitle": "New Visitor Logged 👥",
+  "visitorVisitedToday": "{name}{relation} visited today",
+  "@visitorVisitedToday": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "relation": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyCarePlanner": "Daily Care Planner",
+  "taskDescription": "Task Description",
+  "noTasksAddedYet": "No tasks added yet.",
+  "controlDeckTitle": "{name}'s Control Deck",
+  "@controlDeckTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "defaultPatientRole": "Patient",
+  "todaysProgressTracker": "Today's Progress Tracker",
+  "noTasksAssignedToday": "No tasks assigned today",
+  "allTasksFinished": "All tasks completed!",
+  "patientTaskTracking": "Patient Task Tracking",
+  "tapCarePlanToAddTasks": "Tap 'Daily Care Plan' to add tasks.",
+  "completedTasksSummary": "{completed} of {total} tasks completed.",
+  "@completedTasksSummary": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "managementModules": "Management Modules",
+  "dailyCarePlan": "Daily Care Plan",
+  "updateMedsAndTasks": "Update Medications & Tasks",
+  "enrolledPeople": "Enrolled People",
+  "manageFaceDatabase": "Manage Face Database",
+  "oneToOneChat": "1-on-1 Chat",
+  "textAndVoiceSupport": "Text & Voice Support",
+  "chatWithPatientTitle": "Chat with {name}",
+  "@chatWithPatientTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "videoCall": "Video Call",
+  "connectViaAgora": "Connect via Agora",
+  "audioCall": "Audio Call",
+  "directVoiceLink": "Direct Voice Link",
+  "liveGpsSafety": "Live GPS Safety",
+  "geofencingAndAlerts": "Geofencing & Alerts",
+  "incomingVideoCall": "Incoming Video Call",
+  "incomingAudioCall": "Incoming Audio Call",
+  "isCalling": "{name} is calling...",
+  "@isCalling": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "missedCallTitle": "Missed {callType} 📞",
+  "@missedCallTitle": {
+    "placeholders": {
+      "callType": {
+        "type": "String"
+      }
+    }
+  },
+  "missedCallBody": "You missed a call. Tap for details.",
+  "callConnected": "Connected",
+  "ringingConnecting": "Ringing / Connecting...",
+  "caregiverHub": "Caregiver Hub",
+  "settings": "Settings",
+  "logout": "Log Out",
+  "welcomeToCarePortal": "Welcome to Care Portal",
+  "activeMonitoringSession": "Active Monitoring Session",
+  "caregiverActions": "Caregiver Actions",
+  "registerNewPatient": "Register New Patient",
+  "registerNewPatientSubtitle": "Create a new profile with photos.",
+  "connectExistingPatient": "Connect Existing Patient",
+  "connectExistingPatientSubtitle": "Link with an already registered patient.",
+  "noPatientActive": "No active patient",
+  "unknown": "Unknown",
+  "patientAgeAndRelation": "Age: {age} • {relation}",
+  "@patientAgeAndRelation": {
+    "placeholders": {
+      "age": {
+        "type": "String"
+      },
+      "relation": {
+        "type": "String"
+      }
+    }
+  },
+  "launch": "Launch",
+  "taskStatusUpdates": "Task Status Updates:",
+  "allDone": "All Done",
+  "pendingTasksCount": "{count} Pending",
+  "@pendingTasksCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityLog": "Activity Log: {activity}",
+  "@activityLog": {
+    "placeholders": {
+      "activity": {
+        "type": "String"
+      }
+    }
+  },
+  "noActiveLogUpdates": "No new activity",
+  "caregiverSettingsTitle": "Caregiver Settings",
+  "sectionAppearanceAccessibility": "🎨 Colors & Theme",
+  "appAndPatientDarkMode": "Dark Mode",
+  "syncsDarkThemeSubtitle": "Syncs dark theme across devices directly",
+  "appColorTheme": "App Color Theme",
+  "selectVisualPaletteSubtitle": "Select app theme",
+  "fontTextScale": "Font Size",
+  "fontScaleSubtitle": "Scale: {percent}%",
+  "@fontScaleSubtitle": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "fontSizeNormal": "Normal (100%)",
+  "fontSizeLarge": "Large (120%)",
+  "fontSizeExtraLarge": "Extra Large (140%)",
+  "sectionEmergencyContacts": "🚨 Emergency Contacts",
+  "noEmergencyContacts": "No emergency contacts added yet.",
+  "addNewEmergencyContact": "Add New Contact",
+  "sectionNotificationsAudio": "🔔 Notifications & Alerts",
+  "pushNotifications": "Push Notifications",
+  "pushNotificationsSubtitle": "Safety perimeter & reminder alerts",
+  "bypassDoNotDisturb": "Bypass DND",
+  "bypassDndSubtitle": "Allow emergency alerts even in silent mode",
+  "emergencyRingtone": "Emergency Ringtone",
+  "toneChime": "Chime 🔔",
+  "toneSiren": "Siren 🚨",
+  "tonePulse": "Pulse 🩺",
+  "sectionLanguageLocalization": "🌐 Language Selection",
+  "appLanguageLabel": "App Language",
+  "activeLanguageStatus": "English - Active",
+  "sectionAboutCompliance": "ℹ️ App Information",
+  "aboutAlzheimersEase": "About Alzheimer's Ease",
+  "aboutAlzheimersEaseSubtitle": "Key features & guide",
+  "privacyPolicyTitle": "Privacy Policy",
+  "openingPrivacyPolicySnackbar": "Opening Privacy Policy page...",
+  "deleteAccountTitle": "Delete Account & Data",
+  "deleteAccountSubtitle": "Account deletion according to Google Play Policy",
+  "appFooterCredits": "Alzheimer's Ease v1.0.0\nDesigned for Patient Safety & Care",
+  "addEmergencyContactTitle": "Add Emergency Contact",
+  "fullNameLabel": "Full Name",
+  "fullNameHint": "e.g., Dr. Salman",
+  "enterValidNameError": "Please enter a valid name",
+  "phoneNumberLabel": "Phone Number",
+  "enterValidPhoneError": "Please enter a valid phone number",
+  "relationLabel": "Relationship",
+  "relationHint": "e.g., Doctor, Son, Ambulance",
+  "saveContactButton": "Save",
+  "aboutAppDetailedDescription": "Alzheimer's Ease is a comprehensive care platform offering:\n\n• 📍 GPS Safe Zone Monitoring: Instant alerts if patient steps outside bounds.\n• 🚨 Emergency SOS: One-tap direct call to primary emergency contact.\n• 🧠 Face Recognition: Helps patient identify familiar faces.\n• 🖼️ Memory Journal: Store precious moments, notes, and photos.\n• 🔔 Task & Medication Reminders: Timely notifications for daily activities.",
+  "deleteAccountDialogTitle": "Delete Account & All Data?",
+  "deleteAccountDialogContent": "This action will permanently delete all caregiver records, emergency numbers, and tracking data.",
+  "cancelButton": "Cancel",
+  "deleteAccountRequestSubmittedSnackbar": "Account deletion request submitted.",
+  "deletePermanentlyButton": "Delete Permanently",
+  "deleteMessageTitle": "Delete Message",
+  "deleteMessageConfirm": "Are you sure you want to delete this message?",
+  "clearChatTitle": "Clear Chat History",
+  "clearChatConfirm": "Are you sure you want to delete all messages?",
+  "delete": "Delete",
+  "clearAll": "Clear All",
+  "noMessagesYet": "No messages yet. Say hello!",
+  "typeAMessage": "Type a message...",
+  "pickFromGallery": "Pick from Gallery",
+  "takeAPhoto": "Take a Photo",
+  "newTrustedFaceEnrolledTitle": "New Trusted Face Registered",
+  "trustedFaceAddedBody": "{name} ({relation}) was added to {patientName}'s trusted faces.",
+  "@trustedFaceAddedBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "relation": {
+        "type": "String"
+      },
+      "patientName": {
+        "type": "String"
+      }
+    }
+  },
+  "securityUpdateTitle": "Security Update",
+  "patientDeviceRecognizeBody": "Your device can now recognize {name} ({relation}).",
+  "@patientDeviceRecognizeBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "relation": {
+        "type": "String"
+      }
+    }
+  },
+  "fillAllFieldsAndSelectPhoto": "Please fill in all fields and select a face photo.",
+  "noClearFaceDetectedError": "No clear face detected in photo. Try again in better lighting.",
+  "faceRegisteredSuccess": "Face registered successfully!",
+  "enrollTrustedFacesTitle": "Enroll Trusted Faces",
+  "enrollTrustedFacesSubtitle": "Add family members or caregivers to aid patient recognition.",
+  "tapToCaptureOrPickPhoto": "Tap to capture or pick photo from gallery",
+  "enterRelationshipError": "Enter relationship",
+  "processAndSaveFaceMatrix": "Process & Save Face Matrix",
+  "myDailyHub": "My Daily Hub",
+  "exitApp": "Exit App",
+  "myTasksToday": "My Tasks Today",
+  "allTasksDoneToday": "All tasks completed today!",
+  "quickActions": "Quick Actions",
+  "emergencySos": "Emergency SOS",
+  "tapToCallPrimaryEmergencyContact": "Tap to call primary emergency contact",
+  "guideMeHome": "Guide Me Home",
+  "findDirectionsBackHome": "Find directions back home",
+  "whoIsThis": "Who is this?",
+  "identifyFamilyAndPhotos": "Identify family members & photos",
+  "talkToMeChat": "Talk to Me (Chat)",
+  "messageYourCaregiver": "Send a message to your caregiver",
+  "caregiverChat": "Caregiver Chat",
+  "videoCallCaregiver": "Video Call Caregiver",
+  "startFaceToFaceCall": "Start face-to-face video call",
+  "audioCallCaregiver": "Audio Call Caregiver",
+  "startVoiceCall": "Start voice call",
+  "memoryDiary": "Memory Diary",
+  "viewJournalEntries": "View diary entries",
+  "callerIsCalling": "{callerName} is calling you...",
+  "@callerIsCalling": {
+    "placeholders": {
+      "callerName": {
+        "type": "String"
+      }
+    }
+  },
+  "errorLaunchingDirections": "Error finding directions back home",
+  "registerNewPatientTitle": "Register New Patient",
+  "connectExistingPatientTitle": "Connect Existing Patient",
+  "savingRecordsUploadingPhotos": "Saving records and uploading photos...",
+  "registerNewTab": "Register New",
+  "linkRegisteredTab": "Link Existing",
+  "patientPhotoRequired": "Patient Photo *",
+  "yourPhotoCaregiver": "Your Photo (Caregiver)",
+  "patientNameLabel": "Patient Name",
+  "requiredField": "This field is required",
+  "ageLabel": "Age",
+  "enterValidAgeError": "Please enter a valid age",
+  "relationshipToPatientLabel": "Relationship to Patient",
+  "relationshipRequiredHint": "Required (e.g., Son, Daughter)",
+  "patientPortalAccessPasswordLabel": "Patient Portal Password",
+  "passwordFailHelperText": "Used if fingerprint or biometric authentication fails.",
+  "passwordLengthError": "Password must be at least 6 characters",
+  "setHomeAndSafeZone": "Set Home Address & Safe Zone",
+  "useCurrentGpsLocationTooltip": "Use current GPS location",
+  "tapMapSetHomeBaseHint": "Tap anywhere on the map to set the patient's home base.",
+  "allowedSafeDistanceLabel": "Allowed Safe Distance: {distance} m",
+  "@allowedSafeDistanceLabel": {
+    "placeholders": {
+      "distance": {
+        "type": "int"
+      }
+    }
+  },
+  "registerPatientAndSaveLocationButton": "Register Patient & Save Location",
+  "connectToExistingPatientHeader": "Connect to Existing Patient Profile",
+  "connectPatientDescription": "Enter patient's registered name and password to link this caregiver profile.",
+  "fullRegisteredPatientNameLabel": "Full Registered Patient Name",
+  "enterPatientSearchNameError": "Please enter patient name to search",
+  "validationPasswordLabel": "Validation Password",
+  "enterPasswordError": "Please enter password",
+  "validateAndLinkProfileButton": "Validate & Link Profile",
+  "pickProfilePhotoPrompt": "Please select patient profile photo",
+  "patientRegisteredSuccess": "Patient registered successfully!",
+  "registrationFailedError": "Registration failed: {error}",
+  "@registrationFailedError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noPatientFoundNameError": "No patient found with this name.",
+  "incorrectPasswordError": "Incorrect password for this patient.",
+  "successfullyConnectedTo": "Successfully connected to {name}!",
+  "@successfullyConnectedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToLinkProfileError": "Failed to link profile: {error}",
+  "@failedToLinkProfileError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "whoIsThisTitle": "Who is This?",
+  "@whoIsThisTitle": {
+    "description": "App bar title for the facial recognition screen"
+  },
+  "pointCameraInstruction": "Point camera at a face and press scan",
+  "noCameraHardwareFound": "No camera hardware found.",
+  "cameraError": "Camera error: {error}",
+  "@cameraError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "analyzingFaceStructure": "Analyzing face structure...",
+  "noFaceDetected": "No face detected. Look directly at the camera.",
+  "noTrustedFacesEnrolled": "No trusted faces have been enrolled by your caregiver yet.",
+  "matchFound": "Match Found!",
+  "unknownPerson": "Unknown Person. This person isn't registered in your system.",
+  "analysisError": "Analysis error: {error}",
+  "@analysisError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "yourRelationship": "Your {relationship}",
+  "@yourRelationship": {
+    "placeholders": {
+      "relationship": {
+        "type": "String"
+      }
+    }
+  },
+  "confidenceScore": "Confidence: {score}%",
+  "@confidenceScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "scanFaceButton": "Scan Face",
+  "processingButton": "Processing..."
+}

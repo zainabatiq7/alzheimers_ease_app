@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "841086379296",
+    "project_id": "alzheimers-ease",
+    "storage_bucket": "alzheimers-ease.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841086379296:android:451b344dcb7fdb5c09a345",
+        "android_client_info": {
+          "package_name": "com.zainabkapoor.alzhimers_ease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841086379296-rap3shd4vvsbcblqgemslbiv8dufl8gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zainabkapoor.alzhimers_ease",
+            "certificate_hash": "1714564a943428d491c30f72e9bac6d1b4e93dd2"
+          }
+        },
+        {
+          "client_id": "841086379296-ppijja9l8lac7lfvtqdoldsdklekroep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3lWKbxawBIYasIQncMd7TbyaqTf-rbtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "841086379296-ppijja9l8lac7lfvtqdoldsdklekroep.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "841086379296-8bvepmr6hdsjoi17s81o6utn6indbo4h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zainabkapoor.alzhimersEase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

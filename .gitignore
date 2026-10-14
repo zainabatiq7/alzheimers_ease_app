@@ -1,0 +1,42 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Flutter / Dart build artifacts
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# Android specific
+android/.gradle/
+android/app/build/
+android/local.properties
+**/gradle-wrapper.jar
+**/gradlew
+**/gradlew.bat
+
+# Key stores
+key.properties
+**/*.keystore
+**/*.jks
+
+# iOS specific
+ios/Pods/
+ios/.symlinks/

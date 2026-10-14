@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+       <key>CADisableMinimumFrameDurationOnPhone</key>
+       <true/>
+       <key>CFBundleDevelopmentRegion</key>
+       <string>$(DEVELOPMENT_LANGUAGE)</string>
+       <key>CFBundleDisplayName</key>
+       <string>Alzhimers Ease</string>
+       <key>CFBundleExecutable</key>
+       <string>$(EXECUTABLE_NAME)</string>
+       <key>CFBundleIdentifier</key>
+       <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+       <key>CFBundleInfoDictionaryVersion</key>
+       <string>6.0</string>
+       <key>CFBundleName</key>
+       <string>alzhimers_ease</string>
+       <key>CFBundlePackageType</key>
+       <string>APPL</string>
+       <key>CFBundleShortVersionString</key>
+       <string>$(FLUTTER_BUILD_NAME)</string>
+       <key>CFBundleSignature</key>
+       <string>????</string>
+       <key>CFBundleVersion</key>
+       <string>$(FLUTTER_BUILD_NUMBER)</string>
+       <key>LSRequiresIPhoneOS</key>
+       <true/>
+
+       <!-- Background Modes for Audio Playback & Recording -->
+       <key>UIBackgroundModes</key>
+       <array>
+          <string>audio</string>
+          <string>fetch</string>
+          <string>remote-notification</string>
+       </array>
+
+       <!-- External URL Schemes for url_launcher (Privacy Policy, Tel, Mail) -->
+       <key>LSApplicationQueriesSchemes</key>
+       <array>
+          <string>https</string>
+          <string>http</string>
+          <string>tel</string>
+          <string>mailto</string>
+       </array>
+
+       <!-- App Transport Security Settings -->
+       <key>NSAppTransportSecurity</key>
+       <dict>
+          <key>NSAllowsArbitraryLoads</key>
+          <true/>
+          <key>NSAllowsArbitraryLoadsInWebContent</key>
+          <true/>
+       </dict>
+
+       <!-- Hardware & Privacy Permissions -->
+       <key>NSCameraUsageDescription</key>
+       <string>Camera access is required to take photos of memory moments, profile pictures, and video calling.</string>
+       <key>NSMicrophoneUsageDescription</key>
+       <string>Microphone access is required to record voice messages and perform audio/video calls.</string>
+       <key>NSSpeechRecognitionUsageDescription</key>
+       <string>Speech recognition access is used for processing voice inputs during messaging.</string>
+       <key>NSFaceIDUsageDescription</key>
+       <string>Biometric access is required for secure authentication.</string>
+       <key>NSPhotoLibraryUsageDescription</key>
+       <string>Photo library access is needed to select and crop pictures for your memory diary.</string>
+       <key>NSPhotoLibraryAddUsageDescription</key>
+       <string>Permission is required to save cropped memory photos to your device gallery.</string>
+
+       <key>UIApplicationSceneManifest</key>
+       <dict>
+          <key>UIApplicationSupportsMultipleScenes</key>
+          <false/>
+          <key>UISceneConfigurations</key>
+          <dict>
+             <key>UIWindowSceneSessionRoleApplication</key>
+             <array>
+                <dict>
+                   <key>UISceneClassName</key>
+                   <string>UIWindowScene</string>
+                   <key>UISceneConfigurationName</key>
+                   <string>flutter</string>
+                   <key>UISceneDelegateClassName</key>
+                   <string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+                   <key>UISceneStoryboardFile</key>
+                   <string>Main</string>
+                </dict>
+             </array>
+          </dict>
+       </dict>
+       <key>UIApplicationSupportsIndirectInputEvents</key>
+       <true/>
+       <key>UILaunchStoryboardName</key>
+       <string>LaunchScreen</string>
+       <key>UIMainStoryboardFile</key>
+       <string>Main</string>
+       <key>UISupportedInterfaceOrientations</key>
+       <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+       </array>
+       <key>UISupportedInterfaceOrientations~ipad</key>
+       <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+       </array>
+       <key>UIStatusBarHidden</key>
+       <true/>
+       <key>UIViewControllerBasedStatusBarAppearance</key>
+       <false/>
+    </dict>
+</plist>

@@ -1,0 +1,527 @@
+{
+  "@@locale": "ur",
+  "appTitle": "الزائمر ایز",
+  "splashTagline": "دیکھ بھال اور تعلق",
+  "subtitle": "یاداشت کی حفاظت اور مریض کی دیکھ بھال میں معاون",
+  "iAmCaregiver": "میں دیکھ بھال کرنے والا ہوں",
+  "iAmPatient": "میں مریض ہوں",
+  "enterPatientPass": "مریض کا پاس ورڈ درج کریں",
+  "passwordHint": "دیکھ بھال کرنے والے کا دیا ہوا پاس ورڈ درج کریں",
+  "login": "لاگ ان کریں",
+  "cancel": "منسوخ کریں",
+  "noPatientError": "اس ڈیوائس پر کوئی مریض رجسٹرڈ نہیں ہے! برائے مہربانی کیئرگیور پینل سے رجسٹر کریں۔",
+  "invalidPassError": "غلط پاس ورڈ! دوبارہ کوشش کریں۔",
+  "authFailed": "تصدیق ناکام ہو گئی۔ دوبارہ کوشش کریں۔",
+  "useFingerprint": "اپنے ڈیش بورڈ میں داخل ہونے کے لیے اپنا فنگر پرنٹ اسکین کریں۔",
+  "welcomeBack": "خوش آمدید",
+  "createAccount": "اکاؤنٹ بنائیں",
+  "pleaseFillAllFields": "برائے مہربانی تمام خانوں کو پر کریں۔",
+  "loggedInSuccess": "کامیابی کے ساتھ لاگ ان ہو گئے!",
+  "accountCreatedSuccess": "اکاؤنٹ کامیابی سے بن گیا!",
+  "authErrorOccurred": "تصدیق کے دوران غلطی پیش آئی۔",
+  "unexpectedErrorOccurred": "غیر متوقع غلطی پیش آئی۔",
+  "emailAddress": "ای میل ایڈریس",
+  "password": "پاس ورڈ",
+  "logIn": "لاگ ان",
+  "signUp": "سائن اپ",
+  "dontHaveAccount": "اکاؤنٹ نہیں ہے؟ سائن اپ کریں",
+  "alreadyHaveAccount": "پہلے سے اکاؤنٹ ہے؟ لاگ ان کریں",
+  "speakToType": "ٹائپ کرنے کے لیے بولیں",
+  "myMemoryDiary": "میری یادداشت ڈائری",
+  "whatWouldYouLikeToDo": "آپ کیا کرنا چاہیں گے؟",
+  "myDayToday": "میرا آج کا دن",
+  "myDayTodaySubtitle": "ریکارڈ کریں آپ کیسا محسوس کر رہے ہیں، کیا کھایا اور کیا پہنا",
+  "beautifulMoments": "خوبصورت لمحات",
+  "beautifulMomentsSubtitle": "تصاویر، وائس نوٹس اور خوشگوار یادیں",
+  "whoVisitedMe": "مجھ سے کون ملنے آیا",
+  "whoVisitedMeSubtitle": "پیاروں کے ساتھ حالیہ ملاقاتیں اور تصاویر دیکھیں",
+  "addABeautifulMoment": "ایک خوبصورت لمحات شامل کریں",
+  "tapToAddPhoto": "تصویر شامل کرنے کے لیے ٹیپ کریں",
+  "whatMadeThisMomentSpecial": "کس چیز نے اس لمحے کو خاص بنایا؟",
+  "saveMoment": "محفوظ کریں",
+  "addMoment": "لمحہ شامل کریں",
+  "noMomentsRecordedYet": "ابھی تک کوئی لمحات محفوظ نہیں کیے گئے۔\nنئی یاد محفوظ کرنے کے لیے + ٹیپ کریں!",
+  "patientNote": "مریض کا نوٹ",
+  "caregiverNote": "کیئرگیور کا نوٹ",
+  "newMemoryTitle": "نئی یاد درج کر لی گئی 📸",
+  "patientCapturedMoment": "مریض نے ایک لمحہ محفوظ کیا: \"{text}\"",
+  "@patientCapturedMoment": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "patientUploadedPhoto": "مریض نے ایک نئی تصویر کی یاد اپ لوڈ کی 📸",
+  "savedNotesSuccess": "آج کے نوٹس محفوظ کر لیے گئے!",
+  "failedToSaveNotes": "نوٹس محفوظ کرنے میں ناکامی۔ دوبارہ کوشش کریں۔",
+  "checkInHistory": "چیک ان ہسٹری",
+  "errorLoadingHistory": "ہسٹری لوڈ کرنے میں غلطی۔",
+  "noHistoryFound": "کوئی ہسٹری نہیں ملی۔ اپنا پہلا چیک ان محفوظ کریں!",
+  "moodLabel": "موڈ: {mood}",
+  "@moodLabel": {
+    "placeholders": {
+      "mood": {
+        "type": "String"
+      }
+    }
+  },
+  "wearingLabel": "پہنا ہوا: {outfit}",
+  "@wearingLabel": {
+    "placeholders": {
+      "outfit": {
+        "type": "String"
+      }
+    }
+  },
+  "ateLabel": "کھایا: {meals}",
+  "@ateLabel": {
+    "placeholders": {
+      "meals": {
+        "type": "String"
+      }
+    }
+  },
+  "optionalInfoHint": "یہاں ہر چیز اختیاری ہے۔ جو چاہیں لکھیں!",
+  "howAreYouFeeling": "آپ کیسا محسوس کر رہے ہیں؟",
+  "whatAreYouWearing": "آج آپ نے کیا پہنا ہوا ہے؟",
+  "outfitHint": "مثلاً نیلا سویٹر اور بھوری پتلون...",
+  "whatDidYouEat": "آج آپ نے کیا کھایا؟",
+  "mealsHint": "مثلاً ناشتے میں دلیہ، چکن سوپ...",
+  "saveTodaysStory": "آج کی کہانی محفوظ کریں",
+  "happy": "خوش",
+  "calm": "پرپرسکون",
+  "tired": "تھکا ہوا",
+  "confused": "الجھن میں",
+  "sad": "اداس",
+  "feeling": "احساس: {mood}",
+  "@feeling": {
+    "placeholders": {
+      "mood": {
+        "type": "String"
+      }
+    }
+  },
+  "wearing": "پہنا ہوا: {outfit}",
+  "@wearing": {
+    "placeholders": {
+      "outfit": {
+        "type": "String"
+      }
+    }
+  },
+  "ate": "کھایا: {meals}",
+  "@ate": {
+    "placeholders": {
+      "meals": {
+        "type": "String"
+      }
+    }
+  },
+  "completedCheckIn": "روزانہ چیک ان مکمل ہوا",
+  "dailyCheckInTitle": "روزانہ چیک ان کی آپ ڈیٹ ☀️",
+  "patientLoggedStory": "مریض نے آج کی کہانی کا اندراج کیا ({detail})",
+  "@patientLoggedStory": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "minsAgo": "{count} منٹ پہلے",
+  "@minsAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hrsAgo": "{count} گھنٹے پہلے",
+  "@hrsAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "daysAgo": "{count} دن پہلے",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "logAVisitor": "ملاقاتی کا اندراج کریں",
+  "visitorName": "ملاقاتی کا نام",
+  "visitorNameHint": "مثلاً سارہ",
+  "relationship": "رشتہ / تعلق",
+  "relationshipHint": "مثلاً بیٹی / دوست",
+  "defaultVisitorRole": "ملاقاتی",
+  "saveVisit": "ملاقات محفوظ کریں",
+  "logVisit": "ملاقات درج کریں",
+  "noVisitLogsRecordedYet": "ابھی تک کوئی ملاقات نہیں لکھی گئی۔\nنیا ملاقاتی درج کرنے کے لیے + ٹیپ کریں!",
+  "newVisitorLoggedTitle": "نیا ملاقاتی درج ہو گیا 👥",
+  "visitorVisitedToday": "{name}{relation} نے آج ملاقات کی",
+  "@visitorVisitedToday": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "relation": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyCarePlanner": "روزانہ کی دیکھ بھال کا منصوبہ",
+  "taskDescription": "کام کی تفصیل",
+  "noTasksAddedYet": "ابھی تک کوئی کام شامل نہیں کیا گیا۔",
+  "controlDeckTitle": "{name} کا کنٹرول ڈیک",
+  "@controlDeckTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "defaultPatientRole": "مریض",
+  "todaysProgressTracker": "آج کی پیشرفت کا ٹریکر",
+  "noTasksAssignedToday": "آج کوئی کام تفویض نہیں کیا گیا",
+  "allTasksFinished": "تمام کام مکمل ہو گئے!",
+  "patientTaskTracking": "مریض کے کاموں کی نگرانی",
+  "tapCarePlanToAddTasks": "کام شامل کرنے کے لیے 'روزانہ دیکھ بھال کا منصوبہ' پر ٹیپ کریں۔",
+  "completedTasksSummary": "کل {total} میں سے {completed} کام مکمل ہوئے۔",
+  "@completedTasksSummary": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "managementModules": "انتظامی ماڈیولز",
+  "dailyCarePlan": "روزانہ دیکھ بھال کا منصوبہ",
+  "updateMedsAndTasks": "ادویات اور کاموں کی آپ ڈیٹ",
+  "enrolledPeople": "شامل کیے گئے افراد",
+  "manageFaceDatabase": "چہروں کے ڈیٹابیس کا انتظام",
+  "oneToOneChat": "باہمی بات چیت",
+  "textAndVoiceSupport": "ٹیکسٹ اور وائس کی سہولت",
+  "chatWithPatientTitle": "{name} کے ساتھ بات چیت",
+  "@chatWithPatientTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "videoCall": "ویڈیو کال",
+  "connectViaAgora": "ایگورا کے ذریعے رابطہ کریں",
+  "audioCall": "آڈیو کال",
+  "directVoiceLink": "براہ راست وائس رابطہ",
+  "liveGpsSafety": "لائیو جی پی ایس تحفظ",
+  "geofencingAndAlerts": "جیوفینسنگ اور الرٹس",
+  "incomingVideoCall": "آمدہ ویڈیو کال",
+  "incomingAudioCall": "آمدہ آڈیو کال",
+  "isCalling": "{name} کال کر رہے ہیں...",
+  "@isCalling": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "missedCallTitle": "مسڈ {callType} 📞",
+  "@missedCallTitle": {
+    "placeholders": {
+      "callType": {
+        "type": "String"
+      }
+    }
+  },
+  "missedCallBody": "آپ کی ایک کال مس ہو گئی۔ تفاصیل کے لیے ٹیپ کریں۔",
+  "callConnected": "رابطہ ہو گیا",
+  "ringingConnecting": "کال جا رہی ہے / رابطہ ہو رہا ہے...",
+  "caregiverHub": "کیئرگیور ہب",
+  "settings": "سیٹنگز",
+  "logout": "لاگ آؤٹ",
+  "welcomeToCarePortal": "آپ کے کیئر پورٹل میں خوش آمدید",
+  "activeMonitoringSession": "فعال مانیٹرنگ سیشن",
+  "caregiverActions": "کیئرگیور کے اقدامات",
+  "registerNewPatient": "نیا مریض رجسٹر کریں",
+  "registerNewPatientSubtitle": "تصاویر کے ساتھ ایک نیا پروفائل بنائیں۔",
+  "connectExistingPatient": "موجودہ مریض کو منسلک کریں",
+  "connectExistingPatientSubtitle": "پہلے سے رجسٹرڈ مریض کے ساتھ لنک بنائیں۔",
+  "noPatientActive": "کوئی مریض فعال نہیں ہے",
+  "unknown": "نامعلوم",
+  "patientAgeAndRelation": "عمر: {age} • {relation}",
+  "@patientAgeAndRelation": {
+    "placeholders": {
+      "age": {
+        "type": "String"
+      },
+      "relation": {
+        "type": "String"
+      }
+    }
+  },
+  "launch": "کھولیں",
+  "taskStatusUpdates": "کام کی صورتحال کی آپ ڈیٹ:",
+  "allDone": "تمام مکمل",
+  "pendingTasksCount": "{count} باقی ہیں",
+  "@pendingTasksCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityLog": "سرگرمی کی لاگ: {activity}",
+  "@activityLog": {
+    "placeholders": {
+      "activity": {
+        "type": "String"
+      }
+    }
+  },
+  "noActiveLogUpdates": "کوئی نئی سرگرمی نہیں ہے",
+  "caregiverSettingsTitle": "دیکھ بھال کرنے والے کی ترتیبات",
+  "sectionAppearanceAccessibility": "🎨 رنگ اور تھیم",
+  "appAndPatientDarkMode": "ڈارک موڈ (Dark Mode)",
+  "syncsDarkThemeSubtitle": "تمام ڈیوائسز پر ڈارک تھیم براہ راست ملاتی ہے",
+  "appColorTheme": "ایپ کا رنگ",
+  "selectVisualPaletteSubtitle": "تھیم کا انتخاب کریں",
+  "fontTextScale": "فونٹ کا سائز",
+  "fontScaleSubtitle": "سائز: {percent}%",
+  "@fontScaleSubtitle": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "fontSizeNormal": "عام (100%)",
+  "fontSizeLarge": "بڑا (120%)",
+  "fontSizeExtraLarge": "بہت بڑا (140%)",
+  "sectionEmergencyContacts": "🚨 ہنگامی رابطے",
+  "noEmergencyContacts": "کوئی ہنگامی رابطہ موجود نہیں ہے۔",
+  "addNewEmergencyContact": "نیا رابطہ شامل کریں",
+  "sectionNotificationsAudio": "🔔 نوٹیفکیشن اور الرٹس",
+  "pushNotifications": "پش نوٹیفکیشنز",
+  "pushNotificationsSubtitle": "حفاظتی حد اور یاد دہانی کے انتباہات",
+  "bypassDoNotDisturb": "ڈی این ڈی بائی پاس",
+  "bypassDndSubtitle": "سائلنٹ موڈ پر بھی ہنگامی الرٹس کی اجازت دیں",
+  "emergencyRingtone": "ایمرجنسی رنگ ٹون",
+  "toneChime": "چائم 🔔",
+  "toneSiren": "سائرن 🚨",
+  "tonePulse": "پلس 🩺",
+  "sectionLanguageLocalization": "🌐 زبان کا انتخاب",
+  "appLanguageLabel": "ایپ کی زبان",
+  "activeLanguageStatus": "اردو - فعال ہے",
+  "sectionAboutCompliance": "ℹ️ ایپ کی معلومات",
+  "aboutAlzheimersEase": "الزائمرز ایز کے بارے میں",
+  "aboutAlzheimersEaseSubtitle": "اہم خصوصیات اور رہنمائی",
+  "privacyPolicyTitle": "پرائیویسی پالیسی",
+  "openingPrivacyPolicySnackbar": "پرائیویسی پالیسی کا صفحہ کھولا جا رہا ہے...",
+  "deleteAccountTitle": "اکاؤنٹ اور ڈیٹا ڈلیٹ کریں",
+  "deleteAccountSubtitle": "گوگل پلے پالیسی کے مطابق اکاؤنٹ کا خاتمہ",
+  "appFooterCredits": "الزائمرز ایز v1.0.0\nمریض کی حفاظت اور دیکھ بھال کے لیے تیار کردہ",
+  "addEmergencyContactTitle": "ہنگامی رابطہ شامل کریں",
+  "fullNameLabel": "پورا نام",
+  "fullNameHint": "مثلاً: ڈاکٹر سلمان",
+  "enterValidNameError": "براہ کرم درست نام درج کریں",
+  "phoneNumberLabel": "فون نمبر",
+  "enterValidPhoneError": "براہ کرم درست فون نمبر درج کریں",
+  "relationLabel": "رشتہ",
+  "relationHint": "مثلاً: ڈاکٹر، بیٹا، ایمبولینس",
+  "saveContactButton": "محفوظ کریں",
+  "aboutAppDetailedDescription": "الزائمرز ایز ایک مکمل معاون نظام ہے جس کی اہم خصوصیات درج ذیل ہیں:\n\n• 📍 جی پی ایس سیف زون مانیٹرنگ: مریض کے مقررہ حد سے باہر نکلنے پر فوری اطلاع۔\n• 🚨 ایمرجنسی ایس او ایس: بٹن دبانے پر پہلے محفوظ ہنگامی نمبر پر براہ راست کال۔\n• 🧠 فیس ریکگنیشن: معروف چہروں کو پہچاننے میں مریض کی مدد۔\n• 🖼️ خوبصورت لمحات (میموری جرنل): یادگار تصاویر اور تحریریں محفوظ کرنے کی جگہ۔\n• 🔔 ادویات اور کاموں کی یاد دہانی: روزمرہ کاموں کے بروقت نوٹیفکیشنز۔",
+  "deleteAccountDialogTitle": "اکاؤنٹ اور تمام ڈیٹا ڈلیٹ کریں؟",
+  "deleteAccountDialogContent": "یہ عمل تمام کیئر گیور ریکارڈز، ایمرجنسی نمبرز اور ٹریکنگ ڈیٹا کو مستقل طور پر ختم کر دے گا۔",
+  "cancelButton": "منسوخ کریں",
+  "deleteAccountRequestSubmittedSnackbar": "اکاؤنٹ ڈلیٹ کرنے کی درخواست بھیج دی گئی ہے۔",
+  "deletePermanentlyButton": "مستقل ختم کریں",
+  "deleteMessageTitle": "پیغام حذف کریں",
+  "deleteMessageConfirm": "کیا آپ واقعی اس پیغام کو حذف کرنا چاہتے ہیں؟",
+  "clearChatTitle": "چیٹ ہسٹری صاف کریں",
+  "clearChatConfirm": "کیا آپ واقعی تمام پیغامات حذف کرنا چاہتے ہیں؟",
+  "delete": "حذف کریں",
+  "clearAll": "تمام حذف کریں",
+  "noMessagesYet": "ابھی کوئی پیغام نہیں ہے۔ سلام کریں!",
+  "typeAMessage": "پیغام ٹائپ کریں...",
+  "pickFromGallery": "گیلری سے منتخب کریں",
+  "takeAPhoto": "تصویر لیں",
+  "newTrustedFaceEnrolledTitle": "نیا قابل اعتماد چہرہ رجسٹر ہوا",
+  "trustedFaceAddedBody": "{name} ({relation}) کو {patientName} کے قابل اعتماد چہروں میں شامل کر دیا گیا۔",
+  "@trustedFaceAddedBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "relation": {
+        "type": "String"
+      },
+      "patientName": {
+        "type": "String"
+      }
+    }
+  },
+  "securityUpdateTitle": "سیکیورٹی آپ ڈیٹ",
+  "patientDeviceRecognizeBody": "اب آپ کی ڈیوائس {name} ({relation}) کو پہچان سکتی ہے۔",
+  "@patientDeviceRecognizeBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "relation": {
+        "type": "String"
+      }
+    }
+  },
+  "fillAllFieldsAndSelectPhoto": "براہ کرم تمام خانے پر کریں اور چہرے کی تصویر منتخب کریں۔",
+  "noClearFaceDetectedError": "تصویر میں کوئی واضح چہرہ نہیں ملا۔ بہتر روشنی میں دوبارہ کوشش کریں۔",
+  "faceRegisteredSuccess": "چہرہ کامیابی سے رجسٹر ہو گیا!",
+  "enrollTrustedFacesTitle": "قابل اعتماد چہرے شامل کریں",
+  "enrollTrustedFacesSubtitle": "مریض کی پہچان کے لیے خاندان کے فرد یا دیکھ بھال کرنے والے کا چہرہ شامل کریں۔",
+  "tapToCaptureOrPickPhoto": "تصویر لینے یا گیلری سے منتخب کرنے کے لیے ٹیپ کریں",
+  "enterRelationshipError": "رشتہ درج کریں",
+  "processAndSaveFaceMatrix": "چہرہ پروسیس کریں اور محفوظ کریں",
+  "myDailyHub": "میرا روزانہ کا ہب",
+  "exitApp": "ایپ بند کریں",
+  "myTasksToday": "آج کے میرے کام",
+  "allTasksDoneToday": "آج کے تمام کام مکمل ہو گئے!",
+  "quickActions": "فوری اقدامات",
+  "emergencySos": "ایمرجنسی ایس او ایس",
+  "tapToCallPrimaryEmergencyContact": "بنیادی ہنگامی رابطے کو کال کرنے کے لیے ٹیپ کریں",
+  "guideMeHome": "مجھے گھر کا راستہ دکھائیں",
+  "findDirectionsBackHome": "واپس گھر کا راستہ تلاش کریں",
+  "whoIsThis": "یہ کون ہے؟",
+  "identifyFamilyAndPhotos": "خاندان اور تصاویر کی شناخت کریں",
+  "talkToMeChat": "مجھ سے بات کریں (چیٹ)",
+  "messageYourCaregiver": "اپنے کیئرگیور کو پیغام بھیجیں",
+  "caregiverChat": "کیئرگیور چیٹ",
+  "videoCallCaregiver": "کیئرگیور کو ویڈیو کال کریں",
+  "startFaceToFaceCall": "آمنے سامنے کال شروع کریں",
+  "audioCallCaregiver": "کیئرگیور کو آڈیو کال کریں",
+  "startVoiceCall": "وائس کال شروع کریں",
+  "memoryDiary": "یادداشت ڈائری",
+  "viewJournalEntries": "ڈائری کے اندراجات دیکھیں",
+  "callerIsCalling": "{callerName} آپ کو کال کر رہے ہیں...",
+  "@callerIsCalling": {
+    "placeholders": {
+      "callerName": {
+        "type": "String"
+      }
+    }
+  },
+  "errorLaunchingDirections": "راستہ تلاش کرنے میں غلطی پیش آئی",
+  "registerNewPatientTitle": "نیا مریض رجسٹر کریں",
+  "connectExistingPatientTitle": "موجودہ مریض کو منسلک کریں",
+  "savingRecordsUploadingPhotos": "ریکارڈ محفوظ ہو رہا ہے اور تصاویر اپ لوڈ ہو رہی ہیں...",
+  "registerNewTab": "نیا رجسٹر کریں",
+  "linkRegisteredTab": "موجودہ سے لنک کریں",
+  "patientPhotoRequired": "مریض کی تصویر *",
+  "yourPhotoCaregiver": "آپ کی تصویر (کیئرگیور)",
+  "patientNameLabel": "مریض کا نام",
+  "requiredField": "یہ خانہ پر کرنا ضروری ہے",
+  "ageLabel": "عمر",
+  "enterValidAgeError": "برائے مہربانی درست عمر درج کریں",
+  "relationshipToPatientLabel": "مریض سے رشتہ",
+  "relationshipRequiredHint": "ضروری ہے (مثلاً بیٹا، بیٹی)",
+  "patientPortalAccessPasswordLabel": "مریض پورٹل کا پاس ورڈ",
+  "passwordFailHelperText": "فنگر پرنٹ یا بائیو میٹرک ناکام ہونے کی صورت میں استعمال ہوگا۔",
+  "passwordLengthError": "پاس ورڈ کم از کم 6 ہندسوں کا ہونا چاہیے",
+  "setHomeAndSafeZone": "گھر کا پتہ اور محفوظ زون منتخب کریں",
+  "useCurrentGpsLocationTooltip": "موجودہ جی پی ایس لوکیشن استعمال کریں",
+  "tapMapSetHomeBaseHint": "مریض کا مرکزی مقام منتخب کرنے کے لیے نقشے پر کہیں بھی ٹیپ کریں۔",
+  "allowedSafeDistanceLabel": "مجاز محفوظ فاصلہ: {distance} میٹر",
+  "@allowedSafeDistanceLabel": {
+    "placeholders": {
+      "distance": {
+        "type": "int"
+      }
+    }
+  },
+  "registerPatientAndSaveLocationButton": "مریض رجسٹر کریں اور لوکیشن محفوظ کریں",
+  "connectToExistingPatientHeader": "موجودہ مریض کے پروفائل سے منسلک ہوں",
+  "connectPatientDescription": "اس کیئرگیور پروفائل کو لنک کرنے کے لیے مریض کا رجسٹرڈ نام اور پاس ورڈ درج کریں۔",
+  "fullRegisteredPatientNameLabel": "مریض کا پورا رجسٹرڈ نام",
+  "enterPatientSearchNameError": "برائے مہربانی تلاش کے لیے مریض کا نام درج کریں",
+  "validationPasswordLabel": "تصدیقی پاس ورڈ",
+  "enterPasswordError": "برائے مہربانی پاس ورڈ درج کریں",
+  "validateAndLinkProfileButton": "تصدیق کریں اور پروفائل لنک کریں",
+  "pickProfilePhotoPrompt": "برائے مہربانی مریض کی پروفائل تصویر منتخب کریں",
+  "patientRegisteredSuccess": "مریض کامیابی سے رجسٹر ہو گیا!",
+  "registrationFailedError": "رجسٹریشن ناکام ہو گئی: {error}",
+  "@registrationFailedError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noPatientFoundNameError": "اس نام کا کوئی مریض نہیں ملا۔",
+  "incorrectPasswordError": "اس مریض کا پاس ورڈ غلط ہے۔",
+  "successfullyConnectedTo": "{name} کے ساتھ کامیابی سے لنک ہو گیا!",
+  "@successfullyConnectedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToLinkProfileError": "پروفائل لنک کرنے میں ناکامی: {error}",
+  "@failedToLinkProfileError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "whoIsThisTitle": "یہ کون ہے؟",
+  "@whoIsThisTitle": {
+    "description": "چہرے کی شناخت کی اسکرین کا عنوان"
+  },
+  "pointCameraInstruction": "کیمرا چہرے کی طرف کریں اور اسکین کا بٹن دبائیں",
+  "noCameraHardwareFound": "کوئی کیمرا نہیں ملا۔",
+  "cameraError": "کیمرا کی غلطی: {error}",
+  "@cameraError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "analyzingFaceStructure": "چہرے کی ساخت کا تجزیہ کیا جا رہا ہے...",
+  "noFaceDetected": "کوئی چہرہ نہیں ملا۔ براہ راست کیمرے کی طرف دیکھیں۔",
+  "noTrustedFacesEnrolled": "آپ کے کیئرگیور نے ابھی تک کوئی قابل اعتماد چہرہ شامل نہیں کیا ہے۔",
+  "matchFound": "تطابق مل گیا!",
+  "unknownPerson": "نامعلوم شخص۔ یہ شخص آپ کے سسٹم میں رجسٹرڈ نہیں ہے۔",
+  "analysisError": "تجزیہ کی غلطی: {error}",
+  "@analysisError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "yourRelationship": "آپ کا {relationship}",
+  "@yourRelationship": {
+    "placeholders": {
+      "relationship": {
+        "type": "String"
+      }
+    }
+  },
+  "confidenceScore": "تطابق کا تناسب: {score}%",
+  "@confidenceScore": {
+    "placeholders": {
+      "score": {
+        "type": "String"
+      }
+    }
+  },
+  "scanFaceButton": "چہرہ اسکین کریں",
+  "processingButton": "جاری ہے..."
+}
